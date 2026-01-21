@@ -3,8 +3,8 @@ public class pattern3{
         pattern3(5);
     }
     static void pattern3(int n){
-        for(int row =1;row<=n;row++){
-            for( int col=1;col<=n + 1 -row; col++){
+        for(int row =0;row<=n;row++){
+            for( int col=1;col<=n-row; col++){
                 System.out.print("* ");
 
 
